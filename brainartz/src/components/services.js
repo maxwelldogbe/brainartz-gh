@@ -1,13 +1,15 @@
+// import 
 function Service() {
    return (
       <>
-         <div>
+         <div className="servicesViews">
             <section className="textiles">
                <div className="content">
                   <h3>Textiles</h3>
+                  <p>lorem ipsum</p>
                </div>
                <div className="picture">
-                  <p>your image goes</p>
+                  <img src='/images/textile.jpeg' alt="textile images" />
                </div>
             </section>
 
@@ -16,7 +18,7 @@ function Service() {
                   <h3>Branding</h3>
                </div>
                <div className="picture">
-                  <p>your image goes</p>
+                  <img src='/images/branding1.png' alt="textile images" />
                </div>
             </section>
 
@@ -25,7 +27,7 @@ function Service() {
                   <h3>Graphic Design</h3>
                </div>
                <div className="picture">
-                  <p>your image goes</p>
+                  <img src='/images/flyer.jpeg' alt="textile images" />
                </div>
             </section>
 
@@ -34,7 +36,7 @@ function Service() {
                   <h3>Web Developer</h3>
                </div>
                <div className="picture">
-                  <p>your image goes</p>
+                  <img src='/images/Gradient geometric background.jpeg' alt="web design images" />
                </div>
             </section>
 
@@ -43,7 +45,7 @@ function Service() {
                   <h3>Photography</h3>
                </div>
                <div className="picture">
-                  <p>your image goes</p>
+                  <img src='/images/camera2.jpeg' alt="photograph images" />
                </div>
             </section>
          </div>
