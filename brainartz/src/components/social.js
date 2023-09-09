@@ -11,7 +11,7 @@ function SocialConnect() {
               },
               {
                      name: 'Gmail',
-                     url: 'https://www.google.com/',
+                     url: 'https://mail.google.com/mail/',
                      icon: faEnvelope,
               },
               {

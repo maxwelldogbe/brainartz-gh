@@ -4,13 +4,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary sticky-top">
       <Container fluid>
-        <Navbar.Brand href="#">BrainArtz</Navbar.Brand>
+        <Navbar.Brand href="/" style={{fontWeight:'1000', fontSize:'40px', color:'blue'}}>BrainArtz</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,9 +18,9 @@ function Navigation() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link to="/">Home</Nav.Link>
-            <Nav.Link to="/about">About</Nav.Link>
-            <Nav.Link to="/services">Services</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
