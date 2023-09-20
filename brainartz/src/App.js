@@ -5,8 +5,13 @@ import SocialConnect from "./components/social";
 function App() {
   return (
     <>
+      <section className="welcome">
+        <h3>Welcome to BrainArtz</h3>
+        {/* <p>(find creative works)</p> */}
+      </section>
+      
       <section className="about">
-        <h4>About Us</h4>
+      <h4>About Us</h4>
         <p>BrainArtz, a registered multifunctional company in the business of general supply. The Company is into the following businesses;
           Textiles & Fashion Designing and Printing
           Graphic Designing and Printing

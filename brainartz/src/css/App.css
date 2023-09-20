@@ -5,44 +5,69 @@
        padding: 0;
 	justify-content:centre;
 	align-items:centre;
+       font-family: 'Roboto', sans-serif;
        /* background-color: rgb(21,23,43); */
        /* color: whitesmoke; */
 }
 /* nav{
        color: white;
 } */
-body{
-       display: contents;
-       margin: 0;
-       padding: 0;
-       background-color: aquamarine;
-       text-align: justify;
-       
-}
-
 section{
        display: flex;
-       border: 2px solid black;
-       border-radius: 10px;
-       padding: 10px;
+       border: 2px solid white;
+       /* border-radius: 10px; */
+       padding: 50px;
        margin: auto;
        width: 80%;
        height: 80%;
        position: relative;
+       background: rgb(12, 21, 31);
        /* transform: translate(50%,50%); */
-       box-shadow: 0px 0.5px solid black;
+       /* box-shadow: 0px 0.5px solid black; */
 }
 
+.welcome{
+       display: block;
+       background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
+       /* opacity: 0.8; */
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color: black;
+       position: relative;
+       height: 1000px;       
+}
+.welcome h3{
+       font-family: 'Roboto', sans-serif;
+       font-size: 130px;
+       color: blue;
+       position: relative;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       padding: 20% 5%;
+}
 
 .about{
        display: block;
        font-family: 'Roboto', sans-serif;
-       background: rgba(15, 15, 113, 0.831);
+       /* background: black; */
        border: none;
-       color: whitesmoke;
+       color: white;
        font-weight: 1000;
        font-size: 30px;
-       
+       /* opacity: 0.8; */
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-color: rgb(21,32,43);
+       position: relative;
+       align-items: center;
+       justify-content: center;
+       margin: auto;    
+       padding: 5%;
+}
+
+.about p{
+       color: white;
 }
 h4{
        font-size: larger;
@@ -57,22 +82,33 @@ h4{
 */
 
 .content{
-       height: 300px;
+       height: 500px;
        width: 50%;
        align-items: center;
        justify-content: center;
        margin: 10px;
        padding: 10px;
+       color: white;
+       font-weight: 500;
+       font-family: 'Roboto', sans-serif;
        /* background: rgb; */
        /* background: rgb(21,32,43); */
 }
 
-h3{
-       font-family: 'Roboto', sans-serif;
-       font-weight: 500;
-}
 
+.content h3{
+       font-family: 'Roboto', sans-serif;
+       font-weight: 800;
+       font-size: 50px;
+}
+.textiles{
+}
+       
 img{
        width: auto;
-       height: 400px;
+       height: 500px;
+       border-radius: 20px;
+}
+alt{
+       color: wheat;
 }
