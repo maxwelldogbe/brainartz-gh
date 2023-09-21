@@ -28,19 +28,19 @@ function SocialConnect() {
 
 
        return (
-              <section className="social-connect">
+              <>
+                     <div className="social-image" style={{width:'50px', }}>
+                            <img src='/images/people.jpg' alt="people" />
+                     </div>
                      <div className="social-media">
-                            <h4>Connect with us on our social media handles</h4>
+                            <h4>Connect with us on social media</h4>
                             {socialLinks.map((links, index) => (
                                    <a key={index} href={links.url} target='_blank' rel="noopener noreferrer">
                                           <FontAwesomeIcon icon={links.icon} />
                                    </a>
                             ))}
                      </div>
-                     <div className="social-image" style={{width:'50px', }}>
-                            <img src='/images/people.jpg' alt="people" />
-                     </div>
-              </section>
+              </>
        )
 }
 export default SocialConnect;

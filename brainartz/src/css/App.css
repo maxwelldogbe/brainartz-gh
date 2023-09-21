@@ -38,15 +38,18 @@ section{
 }
 .welcome h3{
        font-family: 'Roboto', sans-serif;
-       font-size: 130px;
+       font-size: 150px;
        color: blue;
        position: relative;
        justify-content: center;
        align-items: center;
+       text-align: center;
        margin: auto;
-       padding: 20% 5%;
+       padding: 15% 15%;
 }
-
+span{
+       font-weight: 900;
+}
 .about{
        display: block;
        font-family: 'Roboto', sans-serif;
@@ -70,8 +73,9 @@ section{
        color: white;
 }
 h4{
-       font-size: larger;
+       font-size: xxx-large;
        font-family: 'Roboto', sans-serif;
+       font-weight: 800;
        /* color: aqua; */
 
 }
@@ -88,8 +92,8 @@ h4{
        justify-content: center;
        margin: 10px;
        padding: 10px;
-       color: white;
-       font-weight: 500;
+       color: wheat;
+       font-weight: 700;
        font-family: 'Roboto', sans-serif;
        /* background: rgb; */
        /* background: rgb(21,32,43); */
@@ -109,6 +113,30 @@ img{
        height: 500px;
        border-radius: 20px;
 }
-alt{
+.social-connect{
+       display: flex;
+       position: relative;
+       padding: 50px;
+       margin: auto;
+       border: 2px sollid white;
+}
+.social-media{
+       width: 500px;
+       margin: auto;
+       padding: 10px;
+}
+.social-media h4{
        color: wheat;
+       font-size: 30px;
+}
+a{
+       color: wheat;
+       font-size: 50px;
+       padding: 10px;
+       margin: auto;
+      
+}
+.social-image img{
+       width: auto;
+       height: 300px;
 }
