@@ -6,11 +6,18 @@ Nav.Brand{
        background-color: rgb(21,32,43);
 }
 
-.Navbar.bg-body-tertiary {
-       background-color: rgb(21, 32, 43); /* Set the background color */
-       /* color: #000000; Make the text (including links) white */
-     }
-     
+
+.navbar{
+       background-color: rgb(21, 32, 43);
+
+}
+
 .navbar .nav-link {
-       color: black; /* Make the links white */
+       color: white;
+       font-size: larger;
+       font-weight: 700;
      }
+
+.navbar .nav-link:hover{
+       color: brown;
+}
