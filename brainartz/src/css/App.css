@@ -1,142 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-*{
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-	justify-content:centre;
-	align-items:centre;
-       font-family: 'Roboto', sans-serif;
-       /* background-color: rgb(21,23,43); */
-       /* color: whitesmoke; */
-}
-/* nav{
-       color: white;
-} */
-section{
-       display: flex;
-       border: 2px solid white;
-       /* border-radius: 10px; */
-       padding: 50px;
-       margin: auto;
-       width: 80%;
-       height: 80%;
-       position: relative;
-       background: rgb(12, 21, 31);
-       /* transform: translate(50%,50%); */
-       /* box-shadow: 0px 0.5px solid black; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Roboto', sans-serif;
 }
 
-.welcome{
-       display: block;
-       background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
-       /* opacity: 0.8; */
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-color: black;
-       position: relative;
-       height: 1000px;       
-}
-.welcome h3{
-       font-family: 'Roboto', sans-serif;
-       font-size: 150px;
-       color: blue;
-       position: relative;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       margin: auto;
-       padding: 15% 15%;
-}
-span{
-       font-weight: 900;
-}
-.about{
-       display: block;
-       font-family: 'Roboto', sans-serif;
-       /* background: black; */
-       border: none;
-       color: white;
-       font-weight: 1000;
-       font-size: 30px;
-       /* opacity: 0.8; */
-       background-repeat: no-repeat;
-       background-size: contain;
-       background-color: rgb(21,32,43);
-       position: relative;
-       align-items: center;
-       justify-content: center;
-       margin: auto;    
-       padding: 5%;
+body {
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
 
-.about p{
-       color: white;
-}
-h4{
-       font-size: xxx-large;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 800;
-       /* color: aqua; */
+section {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap to the next line */
+    padding: 50px;
+    background-color: rgb(235, 245, 241);
+    margin: auto;
+    width: 80%;
+    min-height: 80vh; /* Maintain a minimum height of 80% viewport height */
+    position: relative;
 
 }
 
-/* .servicesViews{
-       /* display: flex; 
-}
-*/
-
-.content{
-       height: 500px;
-       width: 50%;
-       align-items: center;
-       justify-content: center;
-       margin: 10px;
-       padding: 10px;
-       color: wheat;
-       font-weight: 700;
-       font-family: 'Roboto', sans-serif;
-       /* background: rgb; */
-       /* background: rgb(21,32,43); */
+.welcome {
+    display: block;
+    background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    height: 100vh; /* Use viewport height for full-height sections */
 }
 
+.welcome h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 200px;
+    color: rgb(241, 183, 76);
+    font-size: 150px;
+    text-wrap: wrap;
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+}
 
-.content h3{
-       font-family: 'Roboto', sans-serif;
-       font-weight: 800;
-       font-size: 50px;
+.about {
+    color: black;
+    font-weight: 1000;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    align-items: left;
+    justify-content: left;
+    margin: auto;
+    padding: 5%;
 }
-.textiles{
+
+.about p {
+    color: black;
 }
-       
-img{
-       width: auto;
-       height: 500px;
-       border-radius: 20px;
+
+h4 {
+    font-size: xxx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
 }
-.social-connect{
-       display: flex;
-       position: relative;
-       padding: 50px;
-       margin: auto;
-       border: 2px sollid white;
+
+.content {
+    height: auto; /* Let the content determine the height */
+    width: 50%;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
-.social-media{
-       width: 500px;
-       margin: auto;
-       padding: 10px;
+
+.content h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(241, 183, 76);
+    font-weight: 800;
+    font-size: 50px;
 }
-.social-media h4{
-       color: wheat;
-       font-size: 30px;
+.picture{
+    width: 40%;
 }
-a{
-       color: wheat;
-       font-size: 50px;
-       padding: 10px;
-       margin: auto;
-      
+
+img {
+    max-width: 100%; /* Ensure images don't overflow their containers */
+    height: 500px;
+    border-radius: 20px;
 }
-.social-image img{
-       width: auto;
-       height: 300px;
+
+.social-media {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.social-media h4 {
+    color: wheat;
+    font-size: 30px;
+}
+
+a {
+    color: wheat;
+    font-size: 50px;
+    padding: 10px;
+    margin: auto;
+}
+
+.social-image {
+    margin: auto;
+}
+
+.social-image img {
+    max-width: auto; /* Ensure images don't overflow their containers */
+    height: auto;
+    border: 10px solid blueviolet;
+}
+
+@media screen and (max-width: 9400px) {
+    section {
+        width: 100%;
+    }
+    /* .content {
+        width: 1000%;
+
+    } */
 }
