@@ -33,7 +33,7 @@ function SocialConnect() {
                             <img src='/images/people.jpg' alt="people" />
                      </div>
                      <div className="social-media">
-                            <h4>Connect with us on social media</h4>
+                            <h4>Connect with us on cdsocial media</h4>
                             {socialLinks.map((links, index) => (
                                    <a key={index} href={links.url} target='_blank' rel="noopener noreferrer">
                                           <FontAwesomeIcon icon={links.icon} />
