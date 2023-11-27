@@ -1,136 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    justify-content: left;
-    align-items: left;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  align-items: left;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap; /* Allow content to wrap to the next line */
-    padding: 50px;
-    background-color: rgb(235, 245, 241);
-    margin: auto;
-    width: 80%;
-    min-height: 80vh; /* Maintain a minimum height of 80% viewport height */
-    position: relative;
-
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap to the next line */
+  padding: 30px;
+  /* background-color: #eceacb; */
+  margin: auto;
+  width: 80%;
+  min-height: auto; /* Maintain a minimum height of 80% viewport height */
+  position: relative;
+  border: 2px solid black;
 }
 
 .welcome {
-    display: block;
-    background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    position: relative;
-    height: 100vh; /* Use viewport height for full-height sections */
+  display: block;
+  background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+  height: 100vh; /* Use viewport height for full-height sections */
 }
 
 .welcome h3 {
-    font-family: 'Roboto', sans-serif;
-    margin: 200px;
-    color: rgb(241, 183, 76);
-    font-size: 150px;
-    text-wrap: wrap;
-    position: relative;
-    text-align: center;
-    font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin: 80px;
+  color: rgb(241, 183, 76);
+  font-size: 150px;
+  text-wrap: wrap;
+  position: relative;
+  text-align: center;
+  font-weight: 900;
 }
 
 .about {
-    color: black;
-    font-weight: 1000;
-    font-size: 30px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    align-items: left;
-    justify-content: left;
-    margin: auto;
-    padding: 5%;
+  color: black;
+  font-weight: 1000;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  align-items: left;
+  justify-content: left;
+  margin: auto;
+  padding: 5%;
 }
 
 .about p {
-    color: black;
+  color: black;
 }
 
 h4 {
-    font-size: xxx-large;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
+  font-size: xxx-large;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
 
 .content {
-    height: auto; /* Let the content determine the height */
-    width: 50%;
-    align-items: left;
-    justify-content: left;
-    margin: 10px;
-    padding: 10px;
-    color: black;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+  height: auto; /* Let the content determine the height */
+  width: 50%;
+  align-items: left;
+  justify-content: left;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
-
+.content p{
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
 .content h3 {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(241, 183, 76);
-    font-weight: 800;
-    font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(241, 183, 76);
+  font-weight: 800;
+  font-size: 50px;
 }
-.picture{
-    width: 40%;
+.picture {
+  width: 40%;
 }
 
 img {
-    max-width: 100%; /* Ensure images don't overflow their containers */
-    height: 500px;
-    border-radius: 20px;
+  max-width: 100%; /* Ensure images don't overflow their containers */
+  height: 350px;
+  border-radius: 40px;
 }
 
 .social-media {
-    width: 600px;
-    margin: auto;
-    padding: 10px;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
 }
 
 .social-media h4 {
-    color: wheat;
-    font-size: 30px;
+  color: black;
+  font-size: 30px;
 }
 
 a {
-    color: wheat;
-    font-size: 50px;
-    padding: 10px;
-    margin: auto;
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
 }
 
 .social-image {
-    margin: auto;
+  width: 100px;
+  height: auto;
+  margin: auto;
 }
 
 .social-image img {
-    max-width: auto; /* Ensure images don't overflow their containers */
-    height: auto;
-    border: 10px solid blueviolet;
+  max-width: 350px; /* Ensure images don't overflow their containers */
+  height: auto;
+  border: 10px solid blueviolet;
+}
+
+.management{
+    background-color: #031745;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.team-member {
+  /* border: 1px solid #ccc; */
+  border-radius: 20px;
+  width: 350px;
+  background: whitesmoke;
+  color: black;
+  padding: 16px;
+  text-align: center;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 200px;
+  max-height: 200px;
+  object-fit: fill; 
+  border-radius: 50%;
+
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.member-container {
+  flex: 1 1 200px; 
+  max-width: calc(
+    33.333% - 16px
+  );
+  box-sizing: border-box; 
 }
 
 @media screen and (max-width: 9400px) {
-    section {
-        width: 100%;
-    }
-    /* .content {
+  section {
+    width: 100%;
+  }
+  .welcome h3{
+    font-size: 100px;
+  }
+  /* .content {
         width: 1000%;
 
     } */
 }
+
+/* .service-section {
+  margin-top: 40px;
+  max-width: 100px;
+  border:1px solid black;
+} */
+
+.service-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  text-decoration: none;
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+  background: whitesmoke;
+  color: black;
+  padding: 16px;
+  text-align: center;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px; /* Optional: Add border-radius to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow to the image */
+}
+
+.service-item p {
+  text-decoration: none; /* Some space between image and service name */
+}
+

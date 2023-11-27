@@ -1,23 +1,47 @@
-function Team() {
-    return (
-        <section className='our-board'>
-            <h4>Meet our team</h4>
-            <div className="description">
-                <div className="profile">
-                <img src="/images/Asus Introduces Laptop with Dual 4K Displays _ WERD.jpeg" />
-                    <h5>Dogbe Maxwell Dziedzorm</h5>
-                    <title>SOftware Engineer & UI/UX Designer <span>(Manager)</span></title>
-                </div>
-                <div className="portfolio">
-                    <p>
-                        Dogbe MAxwell Dziedzorm is a Software Engineer , UI/UX Designer and also Graphic Designer. He has his Degree in Computer Science with 8years of work experience in His field.  
-                    </p>
+import TeamMember from "./member";
 
-                </div>
-            </div>
-        </section>
+const Team = () => {
+  const teamMembers = [
+    {
+      name: "John Doe",
+      position: "Developer",
+      image: "john.jpg",
+      description: "lorem ipsum ",
+    },
+   
+    {
+      name: "Jane Smith",
+      position: "Designer",
+      image: "jane.jpg",
+      description: "lorem ipsum ",
+    },
+    {
+      name: "Jane Smith",
+      position: "Designer",
+      image: "/images/Free Photo _ Desk with a laptop, a cup of coffee and a calendar.jpeg",
+      description: "lorem ipsum ",
+    },
+    
 
-    )
-}
+    // Add more team members as needed
+  ];
+
+  return (
+    <section className='management'>
+      <h4>Meet our managing team</h4>
+      <div className="team-container">
+        {teamMembers.map((member, index) => (
+          <TeamMember
+            key={index}
+            name={member.name}
+            position={member.position}
+            description={member.description}
+            image={member.image}
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Team;

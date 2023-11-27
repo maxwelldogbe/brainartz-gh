@@ -3,12 +3,13 @@ Nav.Brand{
 }
 
 .bg-body-tertiary{
-       background-color: rgb(21,32,43);
+       background-color: #031745;
 }
 
 
 .navbar{
-       background-color: rgb(21, 32, 43);
+       background-color: #031745;
+       height: 70px;
 
 }
 
