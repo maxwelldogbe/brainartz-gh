@@ -11,8 +11,7 @@ function App() {
         {/* <p>(find creative works)</p> */}
       </section>
         <About />
-        <Service />
-        {/* <Team /> */}
+        <Team />
       <section className="social-links">
         <SocialConnect />
       </section>

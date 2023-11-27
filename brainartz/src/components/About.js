@@ -5,17 +5,6 @@ function About() {
         <h4>About Us</h4>
         <p>BrainArtz, a multifunctional company registered under the Registerar General Office of Ghana in the business of general supply of the following services;
          </p>
-         <ul>
-            <li>Textiles Designing and Printing</li>
-            <li>Graphic Designing and Printing</li>
-            <li>Branding and cutomization</li>
-            <li>website and software development</li>
-            <li>UI / UX design</li>
-            <li>Photography</li>
-            <li>Wall Painting / Interior Decoration</li>
-            <li>IT Services</li>
-            <li>Multimedia and Media Broker Services</li>
-          </ul>
          <p> 
           General Trading and Bulk Supply (Textile & Fashion) and many more.
           Our experience in this aspect of our business operations enables us to adapt to our clients’
