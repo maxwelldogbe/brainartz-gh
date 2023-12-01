@@ -1,6 +1,6 @@
 // import Navigation from './components/Navigation'
 import About from './components/About';
-import Service from './components/services';
+import ServiceSection from './components/services'; 
 import SocialConnect from "./components/social";
 import Team from './components/team';
 function App() {
@@ -11,6 +11,7 @@ function App() {
         {/* <p>(find creative works)</p> */}
       </section>
         <About />
+        <ServiceSection />
         <Team />
       <section className="social-links">
         <SocialConnect />
