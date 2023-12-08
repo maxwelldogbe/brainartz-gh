@@ -1,5 +1,12 @@
 function Branding(){
+   
+   const imagePaths = [
+      'images/image1.jpg',
+    ];
+  
+
     return(
+      <>
         <section className="branding">
                <div className="content">
                   <h3>Branding</h3>
@@ -8,7 +15,8 @@ function Branding(){
                <div className="picture">
                   <img src='/images/branding1.png' alt="textile images" />
                </div>
-            </section>
+         </section>
+         </>
     )
 }
 export default Branding;

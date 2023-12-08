@@ -1,6 +1,6 @@
 // import Navigation from './components/Navigation'
 import About from './components/About';
-import ServiceSection from './components/services'; 
+import Section from './components/Section';
 import SocialConnect from "./components/social";
 import Team from './components/team';
 function App() {
@@ -8,10 +8,11 @@ function App() {
     <>
       <section className="welcome">
         <h3>Welcome to <span>BrainArtz</span></h3>
+        <p>You are at the right place to offer your company the best look</p>
         {/* <p>(find creative works)</p> */}
       </section>
         <About />
-        <ServiceSection />
+        <Section />
         <Team />
       <section className="social-links">
         <SocialConnect />

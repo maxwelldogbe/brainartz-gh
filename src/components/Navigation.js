@@ -20,7 +20,12 @@ function Navigation() {
           >
             <Nav.Link href="/">Home</Nav.Link>
             {/* <Nav.Link href="/about">About</Nav.Link> */}
-            <Nav.Link href="/services">Services</Nav.Link>
+            {/* <Nav.Link href="/services">Services</Nav.Link> */}
+            <Nav.Link href="/graphic-design">Graphic design</Nav.Link>
+            <Nav.Link href="/branding">Branding</Nav.Link>
+            <Nav.Link href="/textiles">Textile</Nav.Link>
+            <Nav.Link href="/photography">Photography</Nav.Link>
+            <Nav.Link href="/web-design">Web Design</Nav.Link>
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control
