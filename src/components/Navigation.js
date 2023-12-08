@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-//import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 // import {Link} from 'react-router-dom'
 
 function Navigation() {
@@ -18,11 +18,14 @@ function Navigation() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
-            {/* <Nav.Link href="/about">About</Nav.Link> */}
-            <Nav.Link href="/services">Services</Nav.Link>
+            {/* <Nav.Link href="/">Home</Nav.Link> */}
+            {/* <Nav.Link href="/:id">Graphic design</Nav.Link> */}
+            {/* <Nav.Link href="/branding">Branding</Nav.Link>
+            <Nav.Link href="/textiles">Textile</Nav.Link>
+            <Nav.Link href="/photography">Photography</Nav.Link>
+            <Nav.Link href="/web-design">Web Design</Nav.Link> */}
           </Nav>
-          {/* <Form className="d-flex">
+          <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -30,7 +33,7 @@ function Navigation() {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form> */}
+          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
