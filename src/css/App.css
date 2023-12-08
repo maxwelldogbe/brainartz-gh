@@ -27,7 +27,7 @@ section {
 
 .welcome {
   display: block;
-  background-image: url("/public/images/unsplash-NuFUbftUu_s-unsplash.jpg");
+  background-image: url("/public/images/software.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -221,3 +221,10 @@ a {
   text-wrap: wrap;
 }
 
+.graphic, .textiles, .software {
+  background-color: #031745;
+  color: white;
+}
+.graphic p, .textiles p, .software p{
+  color: white;
+}

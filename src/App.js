@@ -1,8 +1,13 @@
 // import Navigation from './components/Navigation'
 import About from './components/About';
-import Section from './components/Section';
+// import Section from './components/Section';
 import SocialConnect from "./components/social";
+import Branding from "./components/Branding"
 import Team from './components/team';
+import Software from './components/Software';
+import Textile from './components/Textile';
+import Graphic from './components/Graphic';
+import Photography from './components/Photography';
 function App() {
   return (
     <>
@@ -12,7 +17,12 @@ function App() {
         {/* <p>(find creative works)</p> */}
       </section>
         <About />
-        <Section />
+        {/* <Section /> */}
+        <Graphic />
+        <Branding />
+        <Textile />
+        <Photography />
+        <Software />
         <Team />
       <section className="social-links">
         <SocialConnect />

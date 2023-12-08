@@ -25,7 +25,7 @@ function About() {
           </p>
         </div>
         <div className="picture">
-          <img src="/images/william-thomas-ny6tO4ItOEY-unsplash.jpg" alt="textile images" />
+          <img src="/images/africa.jpeg" alt="textile images" />
         </div>
       </section>
     </>

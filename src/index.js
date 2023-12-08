@@ -7,7 +7,7 @@ import "./css/App.css";
 import "./css/Nav.css";
 import "./css/social.css";
 import Navigation from "./components/Navigation";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import Section from "./components/Section";
 import Photography from "./components/Photography";
@@ -21,9 +21,9 @@ const Routing = () => {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/section" element={<Section />} />
-        <Route path="/graphic-design" element={<Graphic />} />
+        {/* <Route path="/:about" Component={<About />} /> */}
+        {/* <Route path="/section" element={<Section />} /> */}
+        <Route path="/:id" Component={Graphic} />
         <Route path="/branding" element={<Branding />} />
         <Route path="/textiles" element={<Textile />} />
         <Route path="/photography" element={<Photography />} />
