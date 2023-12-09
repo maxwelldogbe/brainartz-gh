@@ -2,11 +2,11 @@ import ImageSlider from "./Slider";
 
 function Branding() {
   const slides = [
-    { url: "http://localhost:3000/images/software.jpg", title: "beach" },
-    { url: "http://localhost:3000/images/coffee.jpg", title: "boat" },
-    { url: "http://localhost:3000/images/camera.jpg", title: "forest" },
-    { url: "http://localhost:3000/images/people.jpg", title: "city" },
-    { url: "http://localhost:3000/images/desk.jpeg", title: "italy" },
+    { url: "https://brainarzt-gh.web.app/images/software.jpg", title: "beach" },
+    { url: "https://brainarzt-gh.web.app/images/coffee.jpg", title: "boat" },
+    { url: "https://brainarzt-gh.web.app/images/camera.jpg", title: "forest" },
+    { url: "https://brainarzt-gh.web.app/images/people.jpg", title: "city" },
+    { url: "https://brainarzt-gh.web.app/images/desk.jpeg", title: "italy" },
   ];
   const containerStyles = {
     width: "40%",
