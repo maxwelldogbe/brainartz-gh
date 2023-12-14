@@ -1,22 +1,10 @@
-import ImageSlider from "./Slider";
-
 function Software() {
-  const slides = [
-    { url: "https://brainarzt-gh.web.app/images/software.jpg", title: "beach" },
-    { url: "https://brainarzt-gh.web.app/images/coffee.jpg", title: "boat" },
-    { url: "https://brainarzt-gh.web.app/images/camera.jpg", title: "forest" },
-    { url: "https://brainarzt-gh.web.app/images/people.jpg", title: "city" },
-    { url: "https://brainarzt-gh.web.app/images/desk.jpeg", title: "italy" },
-  ];
-  const containerStyles = {
-    width: "40%",
-    height: "50vh",
-    margin: "0 auto",
-  };
-
   return (
     <>
       <section className="software">
+      <div className="picture">
+          <img src="/images/software.jpg" alt="photograph images" />
+        </div>
         <div className="content">
           <h3>Web Developer</h3>
           <p>
@@ -31,9 +19,6 @@ function Software() {
             experienced web developers or web development services.
           </p>
         </div>
-        <div style={containerStyles}>
-        <ImageSlider slides={slides} />
-      </div>
       </section>
     </>
   );
