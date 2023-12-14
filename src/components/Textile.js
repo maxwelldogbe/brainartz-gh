@@ -5,7 +5,7 @@ function Textile() {
     <>
       <section className="textiles">
       <div className="picture">
-          <img src="/image/camera.jpg" alt="photograph images" />
+          <img src="/images/textile.jpg" alt="textile images" />
         </div>
         <div className="content">
           <h3>Textiles</h3>

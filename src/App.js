@@ -6,22 +6,22 @@ import Software from "./components/Software";
 import Textile from "./components/Textile";
 import Graphic from "./components/Graphic";
 import Photography from "./components/Photography";
-import ImageSlider from "./components/Slider";
+// import ImageSlider from "./components/Slider";
 
 function App() {
 
-  const slides = [
-    { url: "https://brainarzt-gh.web.app/public/images/software.jpg", title: "beach" },
-    { url: "https://brainarzt-gh.web.app/images/coffee.jpg", title: "boat" },
-    { url: "https://brainarzt-gh.web.app/images/camera.jpg", title: "forest" },
-    { url: "https://brainarzt-gh.web.app/images/people.jpg", title: "city" },
-    { url: "https://brainarzt-gh.web.app/images/desk.jpeg", title: "italy" },
-  ];
-  const containerStyles = {
-    width: "100%",
-    height: "50vh",
-    margin: "0 auto",
-  };
+  // const slides = [
+  //   { url: "https://brainarzt-gh.web.app/public/images/software.jpg", title: "beach" },
+  //   { url: "https://brainarzt-gh.web.app/images/coffee.jpg", title: "boat" },
+  //   { url: "https://brainarzt-gh.web.app/images/camera.jpg", title: "forest" },
+  //   { url: "https://brainarzt-gh.web.app/images/people.jpg", title: "city" },
+  //   { url: "https://brainarzt-gh.web.app/images/desk.jpeg", title: "italy" },
+  // ];
+  // const containerStyles = {
+  //   width: "100%",
+  //   height: "50vh",
+  //   margin: "0 auto",
+  // };
 
   return (
     <>
@@ -38,10 +38,10 @@ function App() {
       <Software />
       
       {/* image slider */}
-      <div style={containerStyles}>
+      {/* <div style={containerStyles}>
         <h4>Our works</h4>
         <ImageSlider slides={slides} />
-      </div>
+      </div> */}
 
       {/* Team */}
       <Team />

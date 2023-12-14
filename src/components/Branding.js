@@ -1,4 +1,3 @@
-import ImageSlider from "./Slider";
 
 function Branding() {
   
@@ -21,7 +20,7 @@ function Branding() {
         </div>
         
         <div className="picture">
-          <img src="/images/desk.jpeg" alt="textile images" />
+          <img src="/images/branding.jpg" alt="textile images" />
         </div>
       </section>
       
