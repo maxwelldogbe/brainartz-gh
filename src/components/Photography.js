@@ -1,19 +1,4 @@
-import ImageSlider from "./Slider";
-
 function Photography() {
-  const slides = [
-    { url: "https://brainarzt-gh.web.app/images/software.jpg", title: "beach" },
-    { url: "https://brainarzt-gh.web.app/images/coffee.jpg", title: "boat" },
-    { url: "https://brainarzt-gh.web.app/images/camera.jpg", title: "forest" },
-    { url: "https://brainarzt-gh.web.app/images/people.jpg", title: "city" },
-    { url: "https://brainarzt-gh.web.app/images/desk.jpeg", title: "italy" },
-  ];
-  const containerStyles = {
-    width: "40%",
-    height: "50vh",
-    margin: "0 auto",
-  };
-
   return (
     <>
       <section className="photography">
@@ -30,14 +15,12 @@ function Photography() {
             finding talented photographers in your area.
           </p>
         </div>
-        <div style={containerStyles}>
-        <ImageSlider slides={slides} />
-      </div>
-        {/* <div className="picture">
-          <img src="/image/camera.jpg" alt="photograph images" />
-        </div> */}
+
+        <div className="picture">
+          <img src="/images/camera.jpg" alt="photograph images" />
+        </div>
       </section>
-      </>
+    </>
   );
 }
 export default Photography;

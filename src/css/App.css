@@ -15,14 +15,12 @@ body {
 
 section {
   display: flex;
-  flex-wrap: wrap; /* Allow content to wrap to the next line */
+  flex-wrap: wrap;
   padding: 30px;
-  /* background-color: #eceacb; */
   margin: auto;
   width: 80%;
-  min-height: auto; /* Maintain a minimum height of 80% viewport height */
+  min-height: auto; 
   position: relative;
-  /* border: 2px solid black; */
 }
 
 .welcome {
@@ -32,7 +30,8 @@ section {
   background-size: cover;
   background-color: black;
   position: relative;
-  height: 100vh; /* Use viewport height for full-height sections */
+  height: 150vh;
+  /* margin: 30px; */
 }
 
 .welcome h3 {
@@ -80,10 +79,11 @@ h4 {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
-.content p{
+.content p {
   justify-content: center;
   align-items: center;
   text-align: justify;
+  /* text-align: justify; */
 }
 .content h3 {
   font-family: "Roboto", sans-serif;
@@ -93,18 +93,23 @@ h4 {
 }
 .picture {
   width: 40%;
+  margin: auto;
+}
+
+.picture img{
+  border-radius: 60%;
 }
 
 img {
-  max-width: 100%; /* Ensure images don't overflow their containers */
+  max-width:100%;
   height: 350px;
-  border-radius: 40px;
+  border-radius: 20%;
 }
 
 .social-media {
   width: 600px;
   margin: auto;
-  padding: 10px;
+  padding: 100px;
 }
 
 .social-media h4 {
@@ -126,19 +131,18 @@ a {
 }
 
 .social-image img {
-  max-width: 350px; /* Ensure images don't overflow their containers */
+  max-width: 300px;
   height: auto;
   border: 10px solid rgb(241, 183, 76);
 }
 
-.management{
-    background-color: #031745;
-    color: whitesmoke;
-    justify-content: center;
-    align-items: center;
+.management {
+  background-color: #031745;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
 }
 .team-member {
-  /* border: 1px solid #ccc; */
   border-radius: 20px;
   width: 350px;
   background: whitesmoke;
@@ -152,9 +156,8 @@ a {
 .team-member img {
   width: 200px;
   max-height: 200px;
-  object-fit: fill; 
+  object-fit: fill;
   border-radius: 50%;
-
 }
 
 .team-container {
@@ -164,24 +167,9 @@ a {
 }
 
 .member-container {
-  flex: 1 1 200px; 
-  max-width: calc(
-    33.333% - 16px
-  );
-  box-sizing: border-box; 
-}
-
-@media screen and (max-width: 9400px) {
-  section {
-    width: 100%;
-  }
-  .welcome h3{
-    font-size: 100px;
-  }
-  /* .content {
-        width: 1000%;
-
-    } */
+  flex: 1 1 200px;
+  max-width: calc(33.333% - 16px);
+  box-sizing: border-box;
 }
 
 .service-section {
@@ -221,10 +209,154 @@ a {
   text-wrap: wrap;
 }
 
-.graphic, .textiles, .software {
+.graphic,
+.textiles,
+.software {
   background-color: #031745;
   color: white;
 }
-.graphic p, .textiles p, .software p{
+.graphic p,
+.textiles p,
+.software p {
   color: white;
+}
+
+
+@media screen and (max-width: 300px) {
+  .welcome {
+    width: 100%;
+    height: 57vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .welcome h3 {
+    color: rgb(241, 183, 76);
+    font-size: 40px;
+    text-wrap: wrap;
+    /* position: relative; */
+    /* text-align: center; */
+    font-weight: 900;
+  }
+
+  section {
+    display: block;
+    /* wrap: wrap; */
+    padding: 30px;
+    width: 100%;
+    min-height: auto;
+    position: relative;
+  }
+  .content {
+    height: auto;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .social-media h4 {
+    color: black;
+    font-size: 30px;
+  }
+  
+  a {
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .social-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  .social-image img {
+    max-width: 350px;
+    height: auto;
+    border: 10px solid rgb(241, 183, 76);
+  }
+
+  .picture {
+    display: none;
+  }
+
+
+}
+
+/* @media screen and (max-width: 300px){
+  .welcome {
+    width: 100%;
+    height: 57vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+} */
+
+@media screen and (max-width: 800px) {
+  .welcome h3 {
+    color: rgb(241, 183, 76);
+    font-size: 100px;
+    text-wrap: wrap;
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  section {
+    display: block;
+    /* wrap: wrap; */
+    padding: 30px;
+    width: 100%;
+    min-height: auto; /* Maintain a minimum height of 80% viewport height */
+    position: relative;
+  }
+  .content {
+    height: auto; /* Let the content determine the height */
+    width: 100%;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    color: black;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
+  /* .social-media {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+  } */
+  
+  .social-media h4 {
+    color: black;
+    font-size: 30px;
+  }
+  
+  a {
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .social-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  .social-image img {
+    max-width: 350px; /* Ensure images don't overflow their containers */
+    height: auto;
+    border: 10px solid rgb(241, 183, 76);
+  }
+  .picture {
+    display: none;
+    width: 100%;
+  }
+  .ImageSlider{
+    display:none;
+  }
+
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const slideStyles = {
-  width: "100%",
+  width: "80%",
   height: "100%",
   borderRadius: "10px",
   backgroundSize: "cover",
